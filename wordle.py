@@ -61,7 +61,6 @@ def main():
     dict_res = {}
     while(centinela):
         if intentos <=5:
-            print(wordle)
             entrada = input("Escribe una palabra de 5 caracteres (intento: "+str(intentos)+"): ")
             while(len(entrada) != 5):
                 entrada = input("Palabra de longitud distinta a 5. Escribe otra palabra: (intento "+str(intentos)+"): ")
